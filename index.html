@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT_Them_buoi_5</title>
+</head>
+<body>
+    <!-- bài 3  -->
+
+
+    <h2>Bài 3: Tính Tiền Thuế </h2>
+
+    <form>
+        <input id="na1" type="text" placeholder="Họ Tên">
+        <input id="na2" type="number" placeholder="Tổng thu nhập năm" >
+        <input id="na3" type="number" placeholder="Số người phụ thuộc">
+    </form>
+
+    <br>
+
+    <button id="button-money" style="background-color: rgb(53, 165, 141); padding: 10px 20px 10px 20px; border-radius: 20px; border: 1px solid rgb(233, 231, 231); cursor: pointer; color: white;  ">Tính Tiền Thuế</button> 
+
+    <div id="show-money" style="display: none;"></div>
+
+    <br>
+
+    <br>
+
+    <br>
+    <!-- bài 4  -->
+
+    <h2> Bài 4: Tính tiền cáp</h2>
+
+    <form>
+        <select id="choose" onchange="myFunction()">
+            <option value="0">Chọn Loại Khách Hàng</option>
+            <option value="N">Nhà Dân</option>
+            <option value="D">Doanh Nghiệp</option>
+        </select>
+    
+        <input id="ID" type="number" placeholder="Nhập Mã Khách Hàng">
+        <input id="numK" type="number" placeholder="Số Kênh Cao Cấp">
+    </form>
+
+    <br>
+
+    <input id="connect" type="number" placeholder="Số kết nối" style="display: none; margin-bottom: 20px ;">
+
+    
+
+
+    
+    <button id="button-cap" style="background-color: rgb(53, 165, 141); padding: 10px 20px 10px 20px; border-radius: 20px; border: 1px solid rgb(233, 231, 231); cursor: pointer; color: white;  ">Tính Tiền Cáp</button> 
+
+    <div id="show-cap" style="display: none; margin: 10px 0 0 0 ;"></div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
